@@ -30,6 +30,22 @@ Constants occasionally use underscores to indicate compound identifiers (SCREAMI
 class MyOwnException
 ```
 
+- When calling methods or fields from the current class, **always** prefix them with `.this`.
+
+```java
+this.firstName
+
+this.doSomething()
+```
+
+### (Unit) Testing
+
+- For methods of Unit Tests we use the following convention:
+
+```java
+void methodThatIsBeingTested_expectedValue_howIsTested()
+```
+
 ## Layout
 
 - One level of indentation is four spaces.
