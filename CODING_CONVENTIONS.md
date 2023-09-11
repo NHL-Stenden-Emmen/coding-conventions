@@ -132,6 +132,15 @@ public void method()
 }
 ```
 
+Don't use a return if there is only one line within a code block (for example an if-block).
+
+```java
+if (condition) 
+{
+    return;
+}
+```
+
 - Fields should be declared in the top of the class, before constructor(s) and methods.
 
 ```java
