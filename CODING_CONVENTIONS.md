@@ -92,6 +92,14 @@ double multiple = 5 * 6;
 public void method(int param1, int param2)
 ```
 
+- Use a space between (operational) keywords like `if, while, for` and the opening parenthesis.
+
+```java
+while (condition)
+if (condition)
+for (condition)
+```
+
 - Don’t use a space for incrementing and decrementing operators, for example:
 
 ```java
