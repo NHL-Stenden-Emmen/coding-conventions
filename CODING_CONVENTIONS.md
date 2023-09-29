@@ -30,7 +30,7 @@ Constants occasionally use underscores to indicate compound identifiers (SCREAMI
 class MyOwnException
 ```
 
-- When calling methods or fields from the current class, **always** prefix them with `.this`.
+- When calling methods or fields from the current class, **always** prefix them with `this.`.
 
 ```java
 this.firstName
@@ -39,6 +39,8 @@ this.doSomething()
 ```
 
 ### (Unit) Testing
+
+- Tests should be placed in a seperate folder. The folder should be called `test`. 
 
 - For methods of Unit Tests we use the following convention:
 
@@ -177,6 +179,16 @@ public void setNumber(int number)
 ```
 
 - Custom methods should be placed below getters and setters.
+
+- Enum constants should be on its own line.
+
+```java
+public enum Currency
+{
+    EURO,
+    DOLLAR
+}
+```
 
 ## HTML & CSS
 
