@@ -134,7 +134,7 @@ public void method()
 }
 ```
 
-Don't use a return if there is only one line within a code block (for example an if-block).
+Don't add a blank line if there is only one line within a code block (for example an if-block).
 
 ```java
 if (condition) 
