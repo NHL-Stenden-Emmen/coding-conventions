@@ -190,6 +190,16 @@ public enum Currency
 }
 ```
 
+## Project structure (Java)
+
+- Put classes that belong to eachother in a package.
+
+- The root of your project should contain a package according to the following naming conventions:
+
+```text
+com.nhlstenden.projectname
+```
+
 ## HTML & CSS
 
 - Don't use whitelines in your HTML.
