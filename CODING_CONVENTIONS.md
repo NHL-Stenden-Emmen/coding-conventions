@@ -45,7 +45,7 @@ this.doSomething()
 - For methods of Unit Tests we use the following convention:
 
 ```java
-void methodThatIsBeingTested_expectedValue_howIsTested()
+void methodThatIsBeingTested_howIsTested_expectedResult()
 ```
 
 ## Layout
